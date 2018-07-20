@@ -24,7 +24,7 @@ import java.util.*;
        iPara2 = Integer.parseInt(arges[1]);
        iEnd = Integer.parseInt(arges[2]);
      }
-     
+
      //if语句
      if (iPara2>iPara1) {
       System.out.println("if 条件满足！");
@@ -34,21 +34,18 @@ import java.util.*;
       System.out.println("第2个数比第1个数小！");
      }
 
-     
-     
      //for循环操作
      for (int i=0;i<iEnd;i++) {
        System.out.println("这是for 第"+i+"次循环");
      }
 
-     
      //while循环操作
      int i=0;
      while (i<iEnd) {
       System.out.println("这是while 第"+i+"次循环");
       i++;
      }
-     
+
      //do-while循环操作
      int j=0;
      do {
