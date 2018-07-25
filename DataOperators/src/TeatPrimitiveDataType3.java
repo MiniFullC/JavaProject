@@ -16,6 +16,14 @@ public class TeatPrimitiveDataType3 {
 		//String就是字符序列
 		String d = "abc";
 		
+		
+		
+		//测试布尔类型
+		boolean man = true;
+		
+		if (man) {
+			System.out.println("你好");
+		}
 	}
 
 }
