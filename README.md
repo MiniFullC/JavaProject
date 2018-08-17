@@ -6,6 +6,8 @@
 
 * 二进制文件位于`../bin`。
 
+* 如需重新编译源文件，可能出现错误，请尝试：
+
 ```
 javac -encoding GBK file.java
 ```
