@@ -30,5 +30,25 @@ public class TestQiantao {
 		
 		System.out.println("奇数和："+sum1);
 		System.out.println("偶数和："+sum2);
+		
+		
+		
+		
+		//用while循环或其他循环输出1-1000之间能被5整除的数，且每行输出5个
+		int h = 0;
+		for(int i=1;i<=1000;i++) {
+			if(i%5==0) {
+				System.out.print(i+"\t");
+				h++;
+			}
+			if(h ==5) {
+				System.out.println();
+				h=0;
+			}
+			
+//			if(i%25 ==0) {
+//				System.out.println();
+//			}
+		}
 	}
 }
