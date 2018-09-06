@@ -9,7 +9,8 @@ public class TestMethod {
 		TestMethod an= new TestMethod();
 		an.printMes();
 		System.out.println("And I want to say:");
-		an.add(500,20,1);
+		int c = an.add(500,20,1)+1000;
+		System.out.println(c);
 		
 	}
 	void printMes() {
@@ -18,9 +19,10 @@ public class TestMethod {
 		System.out.println("Aln晚上好");
 	}
 	
-	void add(int a, int b, int c) {
+	int add(int a, int b, int c) {
 		int sum = a+b+c;
 		System.out.println(sum);
+		return sum;         //1.结束方法的运行 2.返回值
 	}
 
 }
